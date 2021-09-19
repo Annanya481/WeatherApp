@@ -4,7 +4,7 @@ from .models import City
 from .forms import CityForm
 
 def index(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q=las%20vegas&units=imperial&appid=116c27d440bc2016104ea735585296f6'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q=las%20vegas&units=imperial&appid={YOUR_API_KEY}'
 
     err_msg = ''
     message = ''
